@@ -1,0 +1,6 @@
+Quartus II 9.0 Web Edition
+
+Cyclone III - EP3C16F484C6N
+
+Compilate > Pin Planer > Processing > Enable Live I/O Check
+

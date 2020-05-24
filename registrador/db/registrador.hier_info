@@ -1,0 +1,13 @@
+|registrador
+out0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+preset => inst5.IN0
+clear => inst7.IN0
+in0 => inst3.IN0
+in0 => inst~0.IN1
+trigger => inst.CLK
+trigger => inst1.CLK
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+in1 => inst4.IN0
+in1 => inst1~0.IN1
+
+

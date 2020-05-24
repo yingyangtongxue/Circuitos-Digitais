@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="counter7seg">
+		<CBX_INST_ENTRY INSTANCE_NAME="|counter7seg|counter:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_rbh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,13 @@
+|dec2b
+ou0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+in1 => inst.IN0
+in1 => inst9.IN0
+in1 => inst10.IN1
+in0 => inst6.IN0
+in0 => inst8.IN1
+in0 => inst10.IN0
+out1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+out2 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+out3 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,131 @@
+|sumdec
+pin_name <= dec7seg:inst15.a
+ain0 => somador:inst.ain0
+bin0 => somador:inst.bin0
+ain1 => somador:inst.ain1
+bin1 => somador:inst.bin1
+ain2 => somador:inst1.ain0
+bin2 => somador:inst1.bin0
+ain3 => somador:inst1.ain1
+bin3 => somador:inst1.bin1
+pin_name16 <= dec7seg:inst15.b
+pin_name17 <= dec7seg:inst15.c
+pin_name18 <= dec7seg:inst15.d
+pin_name19 <= dec7seg:inst15.e
+pin_name20 <= dec7seg:inst15.f
+pin_name21 <= dec7seg:inst15.g
+pin_name1 <= dec7seg:inst16.a
+pin_name2 <= dec7seg:inst16.b
+pin_name3 <= dec7seg:inst16.c
+pin_name4 <= dec7seg:inst16.d
+pin_name5 <= dec7seg:inst16.e
+pin_name6 <= dec7seg:inst16.f
+pin_name7 <= dec7seg:inst16.g
+
+
+|sumdec|dec7seg:inst15
+a <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in_1 => inst11.IN0
+in_1 => inst17.IN0
+in_1 => inst2.IN0
+in_1 => inst23.IN1
+in_1 => inst24.IN0
+in_1 => inst26.IN2
+in_1 => inst34.IN1
+in_2 => inst3.IN0
+in_2 => inst14.IN0
+in_2 => inst18.IN2
+in_2 => inst21.IN0
+in_2 => inst28.IN1
+in_2 => inst32.IN1
+in_0 => inst1.IN0
+in_0 => inst14.IN1
+in_0 => inst17.IN1
+in_0 => inst18.IN1
+in_0 => inst21.IN2
+in_3 => inst11.IN2
+in_3 => inst19.IN5
+in_3 => inst26.IN1
+in_3 => inst27.IN1
+in_3 => inst31.IN1
+b <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumdec|somador:inst1
+out_0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+cin => inst3.IN0
+cin => inst6.IN1
+ain0 => inst.IN0
+ain0 => inst5.IN1
+ain0 => inst4.IN0
+bin0 => inst.IN1
+bin0 => inst5.IN0
+bin0 => inst4.IN1
+out_1 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+ain1 => inst8.IN0
+ain1 => inst11.IN1
+ain1 => inst10.IN0
+bin1 => inst8.IN1
+bin1 => inst11.IN0
+bin1 => inst10.IN1
+Cout <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumdec|somador:inst
+out_0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+cin => inst3.IN0
+cin => inst6.IN1
+ain0 => inst.IN0
+ain0 => inst5.IN1
+ain0 => inst4.IN0
+bin0 => inst.IN1
+bin0 => inst5.IN0
+bin0 => inst4.IN1
+out_1 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+ain1 => inst8.IN0
+ain1 => inst11.IN1
+ain1 => inst10.IN0
+bin1 => inst8.IN1
+bin1 => inst11.IN0
+bin1 => inst10.IN1
+Cout <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumdec|dec7seg:inst16
+a <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in_1 => inst11.IN0
+in_1 => inst17.IN0
+in_1 => inst2.IN0
+in_1 => inst23.IN1
+in_1 => inst24.IN0
+in_1 => inst26.IN2
+in_1 => inst34.IN1
+in_2 => inst3.IN0
+in_2 => inst14.IN0
+in_2 => inst18.IN2
+in_2 => inst21.IN0
+in_2 => inst28.IN1
+in_2 => inst32.IN1
+in_0 => inst1.IN0
+in_0 => inst14.IN1
+in_0 => inst17.IN1
+in_0 => inst18.IN1
+in_0 => inst21.IN2
+in_3 => inst11.IN2
+in_3 => inst19.IN5
+in_3 => inst26.IN1
+in_3 => inst27.IN1
+in_3 => inst31.IN1
+b <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,7 @@
+|ltch
+Q <= ga1.DB_MAX_OUTPUT_PORT_TYPE
+S => ga2.IN0
+R => ga1.IN1
+~Q <= ga2.DB_MAX_OUTPUT_PORT_TYPE
+
+

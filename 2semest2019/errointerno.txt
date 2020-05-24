@@ -1,0 +1,14 @@
+Erro interno: problema relacionado a transferência de arquivos de projetos entre pastas
+
+
+Fechar o Quartus II
+\cd até a pasta do projeto com problema
+Ordenar por tipo de arquivo
+Encontrar os arquivos com extensão: 
+*.bdf (block diagram file)
+*.bsf (block symbol file)
+*.vhd (file vhdl)
+*.tdf 
+
+Esses arquivos devem ser PRESERVADOS.
+

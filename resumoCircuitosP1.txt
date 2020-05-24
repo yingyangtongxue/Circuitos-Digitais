@@ -1,0 +1,73 @@
+
+
+Transístor é um semicondutor utilizado para modificar o sinal elétrico no circuito.
+
+
+Porta Lógica é uma abstração para um arranjo especifico de transístores que modifica o sinal elétrico no circuito.
+
+
+Atraso de propagação do sinal elétrico pelo circuito (delay):
+	tempo que o sinal elétrico leva para percorrer o circuito e ser modificado pelas portas lógicas.
+
+
+IDEs para criação de circuitos digitais: Quartus II(Altera/Intel), Mentor Graphics(Siemens), ISE(Xilinx)
+
+
+O computador entente difença de potenciais elétricos.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+VHDL entidade e arquitetura:
+
+	entity fileName is:
+
+		/* declaração de portas e seus respectivos tipos. */
+
+	end fileName;
+
+
+	architecture behaviourOfFileName is:
+	begin
+	
+		/* atribuir conteúdo às saídas utilizando portas logicas e portas de entrada. */
+
+	end behaviourOfFileName;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Circuito Inversor
+	Porta NOT, inverte o sinal elétrico.
+	Aplicação prática:
+		switch.
+
+
+Circuito Somador
+	Realiza a adição aritimética de números.
+	Aplicação prática:
+		utilizado por processadores para calcular endereços, índices, realizar operações de incremento/decremento e similares.
+
+
+Circuito Decodificador
+	O número de saídas é igual a quantidade de configurações binárias de entrada possíveis no circuito 
+	N_out = 2 ^ N_in
+	Para cada configuração de suas entradas, somente uma saída retorná o valor 1.
+	Aplicação prática:
+		displays de 7 segmentos, conversão binário -> decimal, 
+
+
+Circuito Multiplexador
+	Escolhe entre os possíveis sinais de entrada e encaminha ele para a saída.
+	Proporção entre numero de entradas de dados e numero de entradas que formam o switch:
+	log(2) data_input = switch_input
+	Aplicação prática:
+		sintonização de frequencia de radio, aumentar a quantidade de informação que pode ser enviada
+		para uma rede dentro de uma certa quantidade de tempo e largura de banda.
+
+Circuito Demultiplexador
+	Contrário do multiplexador, varias saidas e uma entrada.
+
+	

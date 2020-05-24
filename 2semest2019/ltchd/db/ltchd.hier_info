@@ -1,0 +1,16 @@
+|ltchd
+Q <= ltch:inst.Q
+D => inst2.IN0
+D => inst4.IN1
+Trigger => inst3.IN1
+Trigger => inst4.IN0
+~Q <= ltch:inst.~Q
+
+
+|ltchd|ltch:inst
+Q <= ga1.DB_MAX_OUTPUT_PORT_TYPE
+S => ga2.IN0
+R => ga1.IN1
+~Q <= ga2.DB_MAX_OUTPUT_PORT_TYPE
+
+

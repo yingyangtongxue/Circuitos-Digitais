@@ -1,0 +1,118 @@
+|counter7seg
+a <= dec7seg:inst.a
+updown => counter:inst1.updown
+clock => counter:inst1.clock
+aclr => counter:inst1.aclr
+aset => counter:inst1.aset
+b <= dec7seg:inst.b
+c <= dec7seg:inst.c
+d <= dec7seg:inst.d
+e <= dec7seg:inst.e
+f <= dec7seg:inst.f
+g <= dec7seg:inst.g
+
+
+|counter7seg|dec7seg:inst
+a <= inst.DB_MAX_OUTPUT_PORT_TYPE
+in1 => inst13.IN0
+in1 => inst20.IN0
+in1 => inst8.IN0
+in1 => inst26.IN1
+in1 => inst27.IN0
+in1 => inst4.IN2
+in1 => inst34.IN1
+in2 => inst10.IN0
+in2 => inst18.IN0
+in2 => inst15.IN1
+in2 => inst16.IN0
+in2 => inst31.IN1
+in2 => inst33.IN1
+in0 => inst2.IN0
+in0 => inst18.IN1
+in0 => inst20.IN1
+in0 => inst15.IN2
+in0 => inst16.IN2
+in3 => inst13.IN2
+in3 => inst21.IN5
+in3 => inst4.IN1
+in3 => inst29.IN1
+in3 => inst30.IN1
+b <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter7seg|counter:inst1
+aclr => lpm_counter:lpm_counter_component.aclr
+aset => lpm_counter:lpm_counter_component.aset
+clock => lpm_counter:lpm_counter_component.clock
+updown => lpm_counter:lpm_counter_component.updown
+q[0] <= lpm_counter:lpm_counter_component.q[0]
+q[1] <= lpm_counter:lpm_counter_component.q[1]
+q[2] <= lpm_counter:lpm_counter_component.q[2]
+q[3] <= lpm_counter:lpm_counter_component.q[3]
+
+
+|counter7seg|counter:inst1|lpm_counter:lpm_counter_component
+clock => cntr_rbh:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => cntr_rbh:auto_generated.updown
+aclr => cntr_rbh:auto_generated.aclr
+aset => cntr_rbh:auto_generated.aset
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_rbh:auto_generated.q[0]
+q[1] <= cntr_rbh:auto_generated.q[1]
+q[2] <= cntr_rbh:auto_generated.q[2]
+q[3] <= cntr_rbh:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|counter7seg|counter:inst1|lpm_counter:lpm_counter_component|cntr_rbh:auto_generated
+aclr => latch_signal[3].IN0
+aclr => latch_signal[2].IN0
+aclr => latch_signal[1].IN0
+aclr => latch_signal[0].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= safe_q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= safe_q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= safe_q[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= safe_q[3].DB_MAX_OUTPUT_PORT_TYPE
+updown => counter_comb_bita0.DATAB
+updown => counter_comb_bita1.DATAB
+updown => counter_comb_bita2.DATAB
+updown => counter_comb_bita3.DATAB
+
+

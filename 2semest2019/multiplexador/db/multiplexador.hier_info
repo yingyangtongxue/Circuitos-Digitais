@@ -1,0 +1,14 @@
+|multiplexador
+out_x <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+sel_1 => inst.IN0
+sel_1 => inst7.IN0
+sel_1 => inst8.IN0
+sel_0 => inst4.IN0
+sel_0 => inst8.IN1
+sel_0 => inst6.IN0
+in_a => inst9.IN1
+in_c => inst11.IN1
+in_d => inst12.IN1
+in_b => inst10.IN1
+
+

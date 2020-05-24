@@ -1,0 +1,20 @@
+|Vhdl1
+Cin => out_1~3.IN0
+Cin => out_0~1.IN1
+ain0 => out_1~2.IN0
+ain0 => out_1~1.IN0
+ain0 => out_0~0.IN0
+bin0 => out_1~2.IN1
+bin0 => out_1~1.IN1
+bin0 => out_0~0.IN1
+ain1 => Cout~1.IN0
+ain1 => Cout~0.IN0
+ain1 => out_1~0.IN0
+bin1 => Cout~1.IN1
+bin1 => Cout~0.IN1
+bin1 => out_1~0.IN1
+out_0 <= out_0~1.DB_MAX_OUTPUT_PORT_TYPE
+out_1 <= out_1~5.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout~3.DB_MAX_OUTPUT_PORT_TYPE
+
+

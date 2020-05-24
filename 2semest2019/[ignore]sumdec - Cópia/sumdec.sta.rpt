@@ -1,0 +1,1132 @@
+TimeQuest Timing Analyzer report for sumdec
+Tue Oct 08 20:58:53 2019
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Slow 1200mV 85C Model Setup Summary
+  7. Slow 1200mV 85C Model Hold Summary
+  8. Slow 1200mV 85C Model Recovery Summary
+  9. Slow 1200mV 85C Model Removal Summary
+ 10. Slow 1200mV 85C Model Minimum Pulse Width
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Slow 1200mV 0C Model Fmax Summary
+ 14. Slow 1200mV 0C Model Setup Summary
+ 15. Slow 1200mV 0C Model Hold Summary
+ 16. Slow 1200mV 0C Model Recovery Summary
+ 17. Slow 1200mV 0C Model Removal Summary
+ 18. Slow 1200mV 0C Model Minimum Pulse Width
+ 19. Propagation Delay
+ 20. Minimum Propagation Delay
+ 21. Fast 1200mV 0C Model Setup Summary
+ 22. Fast 1200mV 0C Model Hold Summary
+ 23. Fast 1200mV 0C Model Recovery Summary
+ 24. Fast 1200mV 0C Model Removal Summary
+ 25. Fast 1200mV 0C Model Minimum Pulse Width
+ 26. Propagation Delay
+ 27. Minimum Propagation Delay
+ 28. Multicorner Timing Analysis Summary
+ 29. Progagation Delay
+ 30. Minimum Progagation Delay
+ 31. Board Trace Model Assignments
+ 32. Input Transition Times
+ 33. Slow Corner Signal Integrity Metrics
+ 34. Fast Corner Signal Integrity Metrics
+ 35. Clock Transfers
+ 36. Report TCCS
+ 37. Report RSKM
+ 38. Unconstrained Paths
+ 39. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                    ;
++--------------------+-------------------------------------------------+
+; Quartus II Version ; Version 9.0 Build 132 02/25/2009 SJ Web Edition ;
+; Revision Name      ; sumdec                                          ;
+; Device Family      ; Cyclone III                                     ;
+; Device Name        ; EP3C16F484C6                                    ;
+; Timing Models      ; Final                                           ;
+; Delay Model        ; Combined                                        ;
+; Rise/Fall Delays   ; Enabled                                         ;
++--------------------+-------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+---------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width ;
+---------------------------------------------
+Nothing to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 8.050 ; 8.075 ; 8.550 ; 8.632 ;
+; ain0       ; pin_name1   ; 7.748 ;       ;       ; 8.237 ;
+; ain0       ; pin_name4   ; 7.999 ;       ;       ; 8.478 ;
+; ain0       ; pin_name5   ; 7.999 ;       ;       ; 8.478 ;
+; ain0       ; pin_name6   ; 8.199 ;       ;       ; 8.685 ;
+; ain0       ; pin_name16  ; 7.447 ; 7.559 ; 7.953 ; 8.056 ;
+; ain0       ; pin_name17  ; 7.930 ; 8.029 ; 8.427 ; 8.491 ;
+; ain0       ; pin_name18  ; 8.536 ; 8.570 ; 9.036 ; 9.127 ;
+; ain0       ; pin_name19  ; 8.589 ; 8.616 ; 9.089 ; 9.173 ;
+; ain0       ; pin_name20  ; 8.527 ; 8.558 ; 9.027 ; 9.115 ;
+; ain0       ; pin_name21  ; 8.528 ; 8.562 ; 9.028 ; 9.119 ;
+; ain1       ; pin_name    ; 7.643 ; 7.668 ; 8.083 ; 8.165 ;
+; ain1       ; pin_name1   ; 7.341 ;       ;       ; 7.770 ;
+; ain1       ; pin_name4   ; 7.592 ;       ;       ; 8.011 ;
+; ain1       ; pin_name5   ; 7.592 ;       ;       ; 8.011 ;
+; ain1       ; pin_name6   ; 7.792 ;       ;       ; 8.218 ;
+; ain1       ; pin_name16  ; 7.040 ; 7.152 ; 7.486 ; 7.589 ;
+; ain1       ; pin_name17  ; 7.523 ; 7.578 ; 7.960 ; 8.024 ;
+; ain1       ; pin_name18  ; 8.129 ; 8.163 ; 8.569 ; 8.660 ;
+; ain1       ; pin_name19  ; 8.182 ; 8.209 ; 8.622 ; 8.706 ;
+; ain1       ; pin_name20  ; 8.120 ; 8.151 ; 8.560 ; 8.648 ;
+; ain1       ; pin_name21  ; 8.121 ; 8.155 ; 8.561 ; 8.652 ;
+; ain2       ; pin_name    ; 7.816 ; 7.841 ; 8.278 ; 8.360 ;
+; ain2       ; pin_name1   ; 7.514 ;       ;       ; 7.965 ;
+; ain2       ; pin_name4   ; 7.765 ;       ;       ; 8.206 ;
+; ain2       ; pin_name5   ; 7.765 ;       ;       ; 8.206 ;
+; ain2       ; pin_name6   ; 7.965 ;       ;       ; 8.413 ;
+; ain2       ; pin_name16  ; 7.263 ; 7.407 ; 7.724 ; 7.824 ;
+; ain2       ; pin_name17  ; 7.778 ; 7.801 ; 8.195 ; 8.262 ;
+; ain2       ; pin_name18  ; 8.302 ; 8.336 ; 8.764 ; 8.855 ;
+; ain2       ; pin_name19  ; 8.355 ; 8.382 ; 8.817 ; 8.901 ;
+; ain2       ; pin_name20  ; 8.293 ; 8.324 ; 8.755 ; 8.843 ;
+; ain2       ; pin_name21  ; 8.294 ; 8.328 ; 8.756 ; 8.847 ;
+; ain3       ; pin_name    ; 7.115 ; 7.177 ; 7.581 ; 7.611 ;
+; ain3       ; pin_name1   ; 6.860 ;       ;       ; 7.248 ;
+; ain3       ; pin_name4   ; 7.111 ;       ;       ; 7.489 ;
+; ain3       ; pin_name5   ; 7.111 ;       ;       ; 7.489 ;
+; ain3       ; pin_name6   ; 7.311 ;       ;       ; 7.696 ;
+; ain3       ; pin_name18  ; 7.601 ; 7.672 ; 8.067 ; 8.106 ;
+; ain3       ; pin_name19  ; 7.654 ; 7.718 ; 8.120 ; 8.152 ;
+; ain3       ; pin_name20  ; 7.592 ; 7.660 ; 8.058 ; 8.094 ;
+; ain3       ; pin_name21  ; 7.593 ; 7.664 ; 8.059 ; 8.098 ;
+; bin0       ; pin_name    ; 8.014 ; 8.039 ; 8.513 ; 8.595 ;
+; bin0       ; pin_name1   ; 7.712 ;       ;       ; 8.200 ;
+; bin0       ; pin_name4   ; 7.963 ;       ;       ; 8.441 ;
+; bin0       ; pin_name5   ; 7.963 ;       ;       ; 8.441 ;
+; bin0       ; pin_name6   ; 8.163 ;       ;       ; 8.648 ;
+; bin0       ; pin_name16  ; 7.411 ; 7.523 ; 7.916 ; 8.019 ;
+; bin0       ; pin_name17  ; 7.894 ; 7.949 ; 8.390 ; 8.454 ;
+; bin0       ; pin_name18  ; 8.500 ; 8.534 ; 8.999 ; 9.090 ;
+; bin0       ; pin_name19  ; 8.553 ; 8.580 ; 9.052 ; 9.136 ;
+; bin0       ; pin_name20  ; 8.491 ; 8.522 ; 8.990 ; 9.078 ;
+; bin0       ; pin_name21  ; 8.492 ; 8.526 ; 8.991 ; 9.082 ;
+; bin1       ; pin_name    ; 8.105 ; 8.130 ; 8.591 ; 8.673 ;
+; bin1       ; pin_name1   ; 7.803 ;       ;       ; 8.278 ;
+; bin1       ; pin_name4   ; 8.054 ;       ;       ; 8.519 ;
+; bin1       ; pin_name5   ; 8.054 ;       ;       ; 8.519 ;
+; bin1       ; pin_name6   ; 8.254 ;       ;       ; 8.726 ;
+; bin1       ; pin_name16  ; 7.502 ; 7.614 ; 7.994 ; 8.097 ;
+; bin1       ; pin_name17  ; 7.985 ; 8.087 ; 8.468 ; 8.532 ;
+; bin1       ; pin_name18  ; 8.591 ; 8.625 ; 9.077 ; 9.168 ;
+; bin1       ; pin_name19  ; 8.644 ; 8.671 ; 9.130 ; 9.214 ;
+; bin1       ; pin_name20  ; 8.582 ; 8.613 ; 9.068 ; 9.156 ;
+; bin1       ; pin_name21  ; 8.583 ; 8.617 ; 9.069 ; 9.160 ;
+; bin2       ; pin_name    ; 7.576 ; 7.625 ; 8.044 ; 8.113 ;
+; bin2       ; pin_name1   ; 7.256 ;       ;       ; 7.714 ;
+; bin2       ; pin_name4   ; 7.507 ;       ;       ; 7.955 ;
+; bin2       ; pin_name5   ; 7.507 ;       ;       ; 7.955 ;
+; bin2       ; pin_name6   ; 7.707 ;       ;       ; 8.162 ;
+; bin2       ; pin_name16  ; 7.206 ; 7.353 ; 7.721 ; 7.811 ;
+; bin2       ; pin_name17  ; 7.724 ; 7.744 ; 8.182 ; 8.259 ;
+; bin2       ; pin_name18  ; 8.067 ; 8.129 ; 8.530 ; 8.608 ;
+; bin2       ; pin_name19  ; 8.051 ; 8.173 ; 8.583 ; 8.654 ;
+; bin2       ; pin_name20  ; 8.059 ; 8.055 ; 8.521 ; 8.596 ;
+; bin2       ; pin_name21  ; 8.060 ; 8.125 ; 8.522 ; 8.600 ;
+; bin3       ; pin_name    ; 7.313 ; 7.341 ; 7.772 ; 7.844 ;
+; bin3       ; pin_name1   ; 7.014 ;       ;       ; 7.462 ;
+; bin3       ; pin_name4   ; 7.265 ;       ;       ; 7.703 ;
+; bin3       ; pin_name5   ; 7.265 ;       ;       ; 7.703 ;
+; bin3       ; pin_name6   ; 7.465 ;       ;       ; 7.910 ;
+; bin3       ; pin_name18  ; 7.799 ; 7.836 ; 8.258 ; 8.339 ;
+; bin3       ; pin_name19  ; 7.852 ; 7.882 ; 8.311 ; 8.385 ;
+; bin3       ; pin_name20  ; 7.790 ; 7.824 ; 8.249 ; 8.327 ;
+; bin3       ; pin_name21  ; 7.791 ; 7.828 ; 8.250 ; 8.331 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 7.085 ; 7.093 ; 7.531 ; 7.546 ;
+; ain0       ; pin_name1   ; 7.292 ;       ;       ; 7.668 ;
+; ain0       ; pin_name4   ; 7.533 ;       ;       ; 7.899 ;
+; ain0       ; pin_name5   ; 7.533 ;       ;       ; 7.899 ;
+; ain0       ; pin_name6   ; 7.724 ;       ;       ; 8.096 ;
+; ain0       ; pin_name16  ; 6.597 ; 6.645 ; 7.011 ; 7.097 ;
+; ain0       ; pin_name17  ; 7.093 ; 7.138 ; 7.532 ; 7.595 ;
+; ain0       ; pin_name18  ; 7.484 ; 7.571 ; 7.937 ; 8.024 ;
+; ain0       ; pin_name19  ; 7.608 ; 7.618 ; 8.054 ; 8.071 ;
+; ain0       ; pin_name20  ; 7.476 ; 7.602 ; 7.929 ; 8.048 ;
+; ain0       ; pin_name21  ; 7.477 ; 7.565 ; 7.930 ; 8.018 ;
+; ain1       ; pin_name    ; 6.713 ; 6.742 ; 7.124 ; 7.162 ;
+; ain1       ; pin_name1   ; 6.924 ;       ;       ; 7.283 ;
+; ain1       ; pin_name4   ; 7.165 ;       ;       ; 7.514 ;
+; ain1       ; pin_name5   ; 7.165 ;       ;       ; 7.514 ;
+; ain1       ; pin_name6   ; 7.356 ;       ;       ; 7.711 ;
+; ain1       ; pin_name16  ; 6.768 ; 6.817 ; 7.188 ; 7.237 ;
+; ain1       ; pin_name17  ; 7.261 ; 7.363 ; 7.681 ; 7.774 ;
+; ain1       ; pin_name18  ; 7.133 ; 7.220 ; 7.553 ; 7.640 ;
+; ain1       ; pin_name19  ; 7.236 ; 7.267 ; 7.647 ; 7.687 ;
+; ain1       ; pin_name20  ; 7.125 ; 7.230 ; 7.545 ; 7.641 ;
+; ain1       ; pin_name21  ; 7.126 ; 7.214 ; 7.546 ; 7.634 ;
+; ain2       ; pin_name    ; 7.281 ; 7.319 ; 7.726 ; 7.764 ;
+; ain2       ; pin_name1   ; 7.113 ;       ;       ; 7.508 ;
+; ain2       ; pin_name4   ; 7.354 ;       ;       ; 7.739 ;
+; ain2       ; pin_name5   ; 7.354 ;       ;       ; 7.739 ;
+; ain2       ; pin_name6   ; 7.545 ;       ;       ; 7.936 ;
+; ain2       ; pin_name16  ; 7.012 ; 7.144 ; 7.457 ; 7.582 ;
+; ain2       ; pin_name17  ; 7.498 ; 7.531 ; 7.936 ; 7.976 ;
+; ain2       ; pin_name18  ; 7.751 ; 7.797 ; 8.196 ; 8.242 ;
+; ain2       ; pin_name19  ; 7.802 ; 7.931 ; 8.247 ; 8.369 ;
+; ain2       ; pin_name20  ; 7.772 ; 7.787 ; 8.210 ; 8.232 ;
+; ain2       ; pin_name21  ; 7.746 ; 7.791 ; 8.191 ; 8.236 ;
+; ain3       ; pin_name    ; 6.931 ; 6.993 ; 7.385 ; 7.416 ;
+; ain3       ; pin_name1   ; 6.691 ;       ;       ; 7.067 ;
+; ain3       ; pin_name4   ; 6.932 ;       ;       ; 7.298 ;
+; ain3       ; pin_name5   ; 6.932 ;       ;       ; 7.298 ;
+; ain3       ; pin_name6   ; 7.123 ;       ;       ; 7.495 ;
+; ain3       ; pin_name18  ; 7.397 ; 7.470 ; 7.851 ; 7.893 ;
+; ain3       ; pin_name19  ; 7.448 ; 7.514 ; 7.902 ; 7.937 ;
+; ain3       ; pin_name20  ; 7.389 ; 7.457 ; 7.843 ; 7.880 ;
+; ain3       ; pin_name21  ; 7.390 ; 7.461 ; 7.844 ; 7.884 ;
+; bin0       ; pin_name    ; 7.061 ; 7.092 ; 7.534 ; 7.534 ;
+; bin0       ; pin_name1   ; 7.278 ;       ;       ; 7.695 ;
+; bin0       ; pin_name4   ; 7.519 ;       ;       ; 7.926 ;
+; bin0       ; pin_name5   ; 7.519 ;       ;       ; 7.926 ;
+; bin0       ; pin_name6   ; 7.710 ;       ;       ; 8.123 ;
+; bin0       ; pin_name16  ; 6.571 ; 6.646 ; 7.043 ; 7.089 ;
+; bin0       ; pin_name17  ; 7.003 ; 7.091 ; 7.477 ; 7.533 ;
+; bin0       ; pin_name18  ; 7.483 ; 7.570 ; 7.925 ; 8.012 ;
+; bin0       ; pin_name19  ; 7.584 ; 7.617 ; 8.057 ; 8.059 ;
+; bin0       ; pin_name20  ; 7.475 ; 7.578 ; 7.917 ; 8.051 ;
+; bin0       ; pin_name21  ; 7.476 ; 7.564 ; 7.918 ; 8.006 ;
+; bin1       ; pin_name    ; 7.143 ; 7.149 ; 7.575 ; 7.591 ;
+; bin1       ; pin_name1   ; 7.331 ;       ;       ; 7.712 ;
+; bin1       ; pin_name4   ; 7.572 ;       ;       ; 7.943 ;
+; bin1       ; pin_name5   ; 7.572 ;       ;       ; 7.943 ;
+; bin1       ; pin_name6   ; 7.763 ;       ;       ; 8.140 ;
+; bin1       ; pin_name16  ; 7.175 ; 7.224 ; 7.617 ; 7.666 ;
+; bin1       ; pin_name17  ; 7.668 ; 7.788 ; 8.110 ; 8.225 ;
+; bin1       ; pin_name18  ; 7.540 ; 7.627 ; 7.982 ; 8.069 ;
+; bin1       ; pin_name19  ; 7.666 ; 7.674 ; 8.098 ; 8.116 ;
+; bin1       ; pin_name20  ; 7.532 ; 7.660 ; 7.974 ; 8.092 ;
+; bin1       ; pin_name21  ; 7.533 ; 7.621 ; 7.975 ; 8.063 ;
+; bin2       ; pin_name    ; 7.230 ; 7.268 ; 7.714 ; 7.752 ;
+; bin2       ; pin_name1   ; 7.023 ;       ;       ; 7.431 ;
+; bin2       ; pin_name4   ; 7.264 ;       ;       ; 7.662 ;
+; bin2       ; pin_name5   ; 7.264 ;       ;       ; 7.662 ;
+; bin2       ; pin_name6   ; 7.455 ;       ;       ; 7.859 ;
+; bin2       ; pin_name16  ; 6.961 ; 7.096 ; 7.445 ; 7.568 ;
+; bin2       ; pin_name17  ; 7.450 ; 7.480 ; 7.922 ; 7.964 ;
+; bin2       ; pin_name18  ; 7.700 ; 7.746 ; 8.184 ; 8.230 ;
+; bin2       ; pin_name19  ; 7.751 ; 7.845 ; 8.235 ; 8.336 ;
+; bin2       ; pin_name20  ; 7.722 ; 7.736 ; 8.196 ; 8.220 ;
+; bin2       ; pin_name21  ; 7.695 ; 7.740 ; 8.179 ; 8.224 ;
+; bin3       ; pin_name    ; 7.059 ; 7.092 ; 7.506 ; 7.576 ;
+; bin3       ; pin_name1   ; 6.791 ;       ;       ; 7.199 ;
+; bin3       ; pin_name4   ; 7.032 ;       ;       ; 7.430 ;
+; bin3       ; pin_name5   ; 7.032 ;       ;       ; 7.430 ;
+; bin3       ; pin_name6   ; 7.223 ;       ;       ; 7.627 ;
+; bin3       ; pin_name18  ; 7.525 ; 7.569 ; 7.972 ; 8.053 ;
+; bin3       ; pin_name19  ; 7.576 ; 7.613 ; 8.023 ; 8.097 ;
+; bin3       ; pin_name20  ; 7.517 ; 7.556 ; 7.964 ; 8.040 ;
+; bin3       ; pin_name21  ; 7.518 ; 7.560 ; 7.965 ; 8.044 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+--------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width ;
+--------------------------------------------
+Nothing to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 7.398 ; 7.457 ; 7.831 ; 7.937 ;
+; ain0       ; pin_name1   ; 7.156 ;       ;       ; 7.555 ;
+; ain0       ; pin_name4   ; 7.387 ;       ;       ; 7.773 ;
+; ain0       ; pin_name5   ; 7.387 ;       ;       ; 7.773 ;
+; ain0       ; pin_name6   ; 7.572 ;       ;       ; 7.947 ;
+; ain0       ; pin_name16  ; 6.865 ; 6.987 ; 7.311 ; 7.425 ;
+; ain0       ; pin_name17  ; 7.285 ; 7.407 ; 7.723 ; 7.834 ;
+; ain0       ; pin_name18  ; 7.828 ; 7.918 ; 8.261 ; 8.398 ;
+; ain0       ; pin_name19  ; 7.903 ; 7.955 ; 8.336 ; 8.435 ;
+; ain0       ; pin_name20  ; 7.813 ; 7.903 ; 8.246 ; 8.383 ;
+; ain0       ; pin_name21  ; 7.819 ; 7.906 ; 8.252 ; 8.386 ;
+; ain1       ; pin_name    ; 7.054 ; 7.113 ; 7.395 ; 7.501 ;
+; ain1       ; pin_name1   ; 6.812 ;       ;       ; 7.119 ;
+; ain1       ; pin_name4   ; 7.043 ;       ;       ; 7.337 ;
+; ain1       ; pin_name5   ; 7.043 ;       ;       ; 7.337 ;
+; ain1       ; pin_name6   ; 7.228 ;       ;       ; 7.511 ;
+; ain1       ; pin_name16  ; 6.521 ; 6.643 ; 6.875 ; 6.989 ;
+; ain1       ; pin_name17  ; 6.941 ; 7.044 ; 7.287 ; 7.398 ;
+; ain1       ; pin_name18  ; 7.484 ; 7.574 ; 7.825 ; 7.962 ;
+; ain1       ; pin_name19  ; 7.559 ; 7.611 ; 7.900 ; 7.999 ;
+; ain1       ; pin_name20  ; 7.469 ; 7.559 ; 7.810 ; 7.947 ;
+; ain1       ; pin_name21  ; 7.475 ; 7.562 ; 7.816 ; 7.950 ;
+; ain2       ; pin_name    ; 7.195 ; 7.254 ; 7.556 ; 7.662 ;
+; ain2       ; pin_name1   ; 6.953 ;       ;       ; 7.280 ;
+; ain2       ; pin_name4   ; 7.184 ;       ;       ; 7.498 ;
+; ain2       ; pin_name5   ; 7.184 ;       ;       ; 7.498 ;
+; ain2       ; pin_name6   ; 7.369 ;       ;       ; 7.672 ;
+; ain2       ; pin_name16  ; 6.706 ; 6.855 ; 7.072 ; 7.185 ;
+; ain2       ; pin_name17  ; 7.153 ; 7.229 ; 7.483 ; 7.595 ;
+; ain2       ; pin_name18  ; 7.625 ; 7.715 ; 7.986 ; 8.123 ;
+; ain2       ; pin_name19  ; 7.700 ; 7.752 ; 8.061 ; 8.160 ;
+; ain2       ; pin_name20  ; 7.610 ; 7.700 ; 7.971 ; 8.108 ;
+; ain2       ; pin_name21  ; 7.616 ; 7.703 ; 7.977 ; 8.111 ;
+; ain3       ; pin_name    ; 6.578 ; 6.670 ; 6.946 ; 7.009 ;
+; ain3       ; pin_name1   ; 6.380 ;       ;       ; 6.652 ;
+; ain3       ; pin_name4   ; 6.611 ;       ;       ; 6.870 ;
+; ain3       ; pin_name5   ; 6.611 ;       ;       ; 6.870 ;
+; ain3       ; pin_name6   ; 6.796 ;       ;       ; 7.044 ;
+; ain3       ; pin_name18  ; 7.008 ; 7.131 ; 7.376 ; 7.470 ;
+; ain3       ; pin_name19  ; 7.083 ; 7.168 ; 7.451 ; 7.507 ;
+; ain3       ; pin_name20  ; 6.993 ; 7.116 ; 7.361 ; 7.455 ;
+; ain3       ; pin_name21  ; 6.999 ; 7.119 ; 7.367 ; 7.458 ;
+; bin0       ; pin_name    ; 7.381 ; 7.440 ; 7.793 ; 7.899 ;
+; bin0       ; pin_name1   ; 7.139 ;       ;       ; 7.517 ;
+; bin0       ; pin_name4   ; 7.370 ;       ;       ; 7.735 ;
+; bin0       ; pin_name5   ; 7.370 ;       ;       ; 7.735 ;
+; bin0       ; pin_name6   ; 7.555 ;       ;       ; 7.909 ;
+; bin0       ; pin_name16  ; 6.848 ; 6.970 ; 7.273 ; 7.387 ;
+; bin0       ; pin_name17  ; 7.268 ; 7.371 ; 7.685 ; 7.796 ;
+; bin0       ; pin_name18  ; 7.811 ; 7.901 ; 8.223 ; 8.360 ;
+; bin0       ; pin_name19  ; 7.886 ; 7.938 ; 8.298 ; 8.397 ;
+; bin0       ; pin_name20  ; 7.796 ; 7.886 ; 8.208 ; 8.345 ;
+; bin0       ; pin_name21  ; 7.802 ; 7.889 ; 8.214 ; 8.348 ;
+; bin1       ; pin_name    ; 7.463 ; 7.522 ; 7.852 ; 7.958 ;
+; bin1       ; pin_name1   ; 7.221 ;       ;       ; 7.576 ;
+; bin1       ; pin_name4   ; 7.452 ;       ;       ; 7.794 ;
+; bin1       ; pin_name5   ; 7.452 ;       ;       ; 7.794 ;
+; bin1       ; pin_name6   ; 7.637 ;       ;       ; 7.968 ;
+; bin1       ; pin_name16  ; 6.930 ; 7.052 ; 7.332 ; 7.446 ;
+; bin1       ; pin_name17  ; 7.350 ; 7.475 ; 7.744 ; 7.855 ;
+; bin1       ; pin_name18  ; 7.893 ; 7.983 ; 8.282 ; 8.419 ;
+; bin1       ; pin_name19  ; 7.968 ; 8.020 ; 8.357 ; 8.456 ;
+; bin1       ; pin_name20  ; 7.878 ; 7.968 ; 8.267 ; 8.404 ;
+; bin1       ; pin_name21  ; 7.884 ; 7.971 ; 8.273 ; 8.407 ;
+; bin2       ; pin_name    ; 6.976 ; 7.044 ; 7.357 ; 7.455 ;
+; bin2       ; pin_name1   ; 6.723 ;       ;       ; 7.066 ;
+; bin2       ; pin_name4   ; 6.954 ;       ;       ; 7.284 ;
+; bin2       ; pin_name5   ; 6.954 ;       ;       ; 7.284 ;
+; bin2       ; pin_name6   ; 7.139 ;       ;       ; 7.458 ;
+; bin2       ; pin_name16  ; 6.655 ; 6.808 ; 7.078 ; 7.184 ;
+; bin2       ; pin_name17  ; 7.106 ; 7.178 ; 7.482 ; 7.601 ;
+; bin2       ; pin_name18  ; 7.410 ; 7.518 ; 7.787 ; 7.916 ;
+; bin2       ; pin_name19  ; 7.426 ; 7.549 ; 7.862 ; 7.953 ;
+; bin2       ; pin_name20  ; 7.398 ; 7.457 ; 7.774 ; 7.901 ;
+; bin2       ; pin_name21  ; 7.404 ; 7.509 ; 7.780 ; 7.904 ;
+; bin3       ; pin_name    ; 6.746 ; 6.809 ; 7.137 ; 7.236 ;
+; bin3       ; pin_name1   ; 6.511 ;       ;       ; 6.864 ;
+; bin3       ; pin_name4   ; 6.742 ;       ;       ; 7.082 ;
+; bin3       ; pin_name5   ; 6.742 ;       ;       ; 7.082 ;
+; bin3       ; pin_name6   ; 6.927 ;       ;       ; 7.256 ;
+; bin3       ; pin_name18  ; 7.176 ; 7.270 ; 7.567 ; 7.697 ;
+; bin3       ; pin_name19  ; 7.251 ; 7.307 ; 7.642 ; 7.734 ;
+; bin3       ; pin_name20  ; 7.161 ; 7.255 ; 7.552 ; 7.682 ;
+; bin3       ; pin_name21  ; 7.167 ; 7.258 ; 7.558 ; 7.685 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 6.537 ; 6.566 ; 6.930 ; 6.969 ;
+; ain0       ; pin_name1   ; 6.761 ;       ;       ; 7.054 ;
+; ain0       ; pin_name4   ; 6.983 ;       ;       ; 7.264 ;
+; ain0       ; pin_name5   ; 6.983 ;       ;       ; 7.264 ;
+; ain0       ; pin_name6   ; 7.160 ;       ;       ; 7.430 ;
+; ain0       ; pin_name16  ; 6.103 ; 6.168 ; 6.469 ; 6.570 ;
+; ain0       ; pin_name17  ; 6.536 ; 6.621 ; 6.929 ; 7.034 ;
+; ain0       ; pin_name18  ; 6.883 ; 7.010 ; 7.286 ; 7.413 ;
+; ain0       ; pin_name19  ; 7.027 ; 7.047 ; 7.420 ; 7.450 ;
+; ain0       ; pin_name20  ; 6.870 ; 7.039 ; 7.273 ; 7.432 ;
+; ain0       ; pin_name21  ; 6.875 ; 7.000 ; 7.278 ; 7.403 ;
+; ain1       ; pin_name    ; 6.218 ; 6.271 ; 6.552 ; 6.611 ;
+; ain1       ; pin_name1   ; 6.447 ;       ;       ; 6.695 ;
+; ain1       ; pin_name4   ; 6.669 ;       ;       ; 6.905 ;
+; ain1       ; pin_name5   ; 6.669 ;       ;       ; 6.905 ;
+; ain1       ; pin_name6   ; 6.846 ;       ;       ; 7.071 ;
+; ain1       ; pin_name16  ; 6.269 ; 6.336 ; 6.609 ; 6.676 ;
+; ain1       ; pin_name17  ; 6.702 ; 6.830 ; 7.042 ; 7.164 ;
+; ain1       ; pin_name18  ; 6.588 ; 6.715 ; 6.928 ; 7.055 ;
+; ain1       ; pin_name19  ; 6.708 ; 6.752 ; 7.042 ; 7.092 ;
+; ain1       ; pin_name20  ; 6.575 ; 6.720 ; 6.915 ; 7.054 ;
+; ain1       ; pin_name21  ; 6.580 ; 6.705 ; 6.920 ; 7.045 ;
+; ain2       ; pin_name    ; 6.724 ; 6.781 ; 7.079 ; 7.136 ;
+; ain2       ; pin_name1   ; 6.600 ;       ;       ; 6.885 ;
+; ain2       ; pin_name4   ; 6.822 ;       ;       ; 7.095 ;
+; ain2       ; pin_name5   ; 6.822 ;       ;       ; 7.095 ;
+; ain2       ; pin_name6   ; 6.999 ;       ;       ; 7.261 ;
+; ain2       ; pin_name16  ; 6.485 ; 6.629 ; 6.840 ; 6.975 ;
+; ain2       ; pin_name17  ; 6.914 ; 6.989 ; 7.260 ; 7.344 ;
+; ain2       ; pin_name18  ; 7.139 ; 7.225 ; 7.494 ; 7.580 ;
+; ain2       ; pin_name19  ; 7.213 ; 7.339 ; 7.568 ; 7.685 ;
+; ain2       ; pin_name20  ; 7.152 ; 7.213 ; 7.498 ; 7.568 ;
+; ain2       ; pin_name21  ; 7.133 ; 7.216 ; 7.488 ; 7.571 ;
+; ain3       ; pin_name    ; 6.419 ; 6.509 ; 6.779 ; 6.841 ;
+; ain3       ; pin_name1   ; 6.233 ;       ;       ; 6.497 ;
+; ain3       ; pin_name4   ; 6.455 ;       ;       ; 6.707 ;
+; ain3       ; pin_name5   ; 6.455 ;       ;       ; 6.707 ;
+; ain3       ; pin_name6   ; 6.632 ;       ;       ; 6.873 ;
+; ain3       ; pin_name18  ; 6.834 ; 6.952 ; 7.194 ; 7.284 ;
+; ain3       ; pin_name19  ; 6.904 ; 6.987 ; 7.264 ; 7.319 ;
+; ain3       ; pin_name20  ; 6.818 ; 6.938 ; 7.178 ; 7.270 ;
+; ain3       ; pin_name21  ; 6.823 ; 6.940 ; 7.183 ; 7.272 ;
+; bin0       ; pin_name    ; 6.524 ; 6.579 ; 6.929 ; 6.956 ;
+; bin0       ; pin_name1   ; 6.759 ;       ;       ; 7.075 ;
+; bin0       ; pin_name4   ; 6.981 ;       ;       ; 7.285 ;
+; bin0       ; pin_name5   ; 6.981 ;       ;       ; 7.285 ;
+; bin0       ; pin_name6   ; 7.158 ;       ;       ; 7.451 ;
+; bin0       ; pin_name16  ; 6.088 ; 6.182 ; 6.492 ; 6.559 ;
+; bin0       ; pin_name17  ; 6.466 ; 6.593 ; 6.872 ; 6.970 ;
+; bin0       ; pin_name18  ; 6.896 ; 7.023 ; 7.273 ; 7.400 ;
+; bin0       ; pin_name19  ; 7.014 ; 7.060 ; 7.419 ; 7.437 ;
+; bin0       ; pin_name20  ; 6.883 ; 7.026 ; 7.260 ; 7.431 ;
+; bin0       ; pin_name21  ; 6.888 ; 7.013 ; 7.265 ; 7.390 ;
+; bin1       ; pin_name    ; 6.603 ; 6.631 ; 6.957 ; 6.995 ;
+; bin1       ; pin_name1   ; 6.807 ;       ;       ; 7.081 ;
+; bin1       ; pin_name4   ; 7.029 ;       ;       ; 7.291 ;
+; bin1       ; pin_name5   ; 7.029 ;       ;       ; 7.291 ;
+; bin1       ; pin_name6   ; 7.206 ;       ;       ; 7.457 ;
+; bin1       ; pin_name16  ; 6.629 ; 6.696 ; 6.993 ; 7.060 ;
+; bin1       ; pin_name17  ; 7.062 ; 7.215 ; 7.426 ; 7.569 ;
+; bin1       ; pin_name18  ; 6.948 ; 7.075 ; 7.312 ; 7.439 ;
+; bin1       ; pin_name19  ; 7.093 ; 7.112 ; 7.447 ; 7.476 ;
+; bin1       ; pin_name20  ; 6.935 ; 7.105 ; 7.299 ; 7.459 ;
+; bin1       ; pin_name21  ; 6.940 ; 7.065 ; 7.304 ; 7.429 ;
+; bin2       ; pin_name    ; 6.678 ; 6.735 ; 7.078 ; 7.135 ;
+; bin2       ; pin_name1   ; 6.519 ;       ;       ; 6.822 ;
+; bin2       ; pin_name4   ; 6.741 ;       ;       ; 7.032 ;
+; bin2       ; pin_name5   ; 6.741 ;       ;       ; 7.032 ;
+; bin2       ; pin_name6   ; 6.918 ;       ;       ; 7.198 ;
+; bin2       ; pin_name16  ; 6.439 ; 6.585 ; 6.839 ; 6.973 ;
+; bin2       ; pin_name17  ; 6.870 ; 6.943 ; 7.258 ; 7.343 ;
+; bin2       ; pin_name18  ; 7.093 ; 7.179 ; 7.493 ; 7.579 ;
+; bin2       ; pin_name19  ; 7.167 ; 7.273 ; 7.567 ; 7.673 ;
+; bin2       ; pin_name20  ; 7.106 ; 7.167 ; 7.496 ; 7.567 ;
+; bin2       ; pin_name21  ; 7.087 ; 7.170 ; 7.487 ; 7.570 ;
+; bin3       ; pin_name    ; 6.529 ; 6.589 ; 6.905 ; 7.000 ;
+; bin3       ; pin_name1   ; 6.313 ;       ;       ; 6.633 ;
+; bin3       ; pin_name4   ; 6.535 ;       ;       ; 6.843 ;
+; bin3       ; pin_name5   ; 6.535 ;       ;       ; 6.843 ;
+; bin3       ; pin_name6   ; 6.712 ;       ;       ; 7.009 ;
+; bin3       ; pin_name18  ; 6.944 ; 7.032 ; 7.320 ; 7.443 ;
+; bin3       ; pin_name19  ; 7.014 ; 7.067 ; 7.390 ; 7.478 ;
+; bin3       ; pin_name20  ; 6.928 ; 7.018 ; 7.304 ; 7.429 ;
+; bin3       ; pin_name21  ; 6.933 ; 7.020 ; 7.309 ; 7.431 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+--------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width ;
+--------------------------------------------
+Nothing to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 4.683 ; 4.639 ; 5.364 ; 5.359 ;
+; ain0       ; pin_name1   ; 4.477 ;       ;       ; 5.205 ;
+; ain0       ; pin_name4   ; 4.612 ;       ;       ; 5.349 ;
+; ain0       ; pin_name5   ; 4.612 ;       ;       ; 5.349 ;
+; ain0       ; pin_name6   ; 4.721 ;       ;       ; 5.472 ;
+; ain0       ; pin_name16  ; 4.371 ; 4.376 ; 5.031 ; 5.044 ;
+; ain0       ; pin_name17  ; 4.659 ; 4.656 ; 5.327 ; 5.280 ;
+; ain0       ; pin_name18  ; 4.979 ; 4.915 ; 5.660 ; 5.635 ;
+; ain0       ; pin_name19  ; 5.030 ; 4.959 ; 5.711 ; 5.679 ;
+; ain0       ; pin_name20  ; 4.978 ; 4.906 ; 5.659 ; 5.626 ;
+; ain0       ; pin_name21  ; 4.968 ; 4.905 ; 5.649 ; 5.625 ;
+; ain1       ; pin_name    ; 4.462 ; 4.418 ; 5.082 ; 5.077 ;
+; ain1       ; pin_name1   ; 4.256 ;       ;       ; 4.923 ;
+; ain1       ; pin_name4   ; 4.391 ;       ;       ; 5.067 ;
+; ain1       ; pin_name5   ; 4.391 ;       ;       ; 5.067 ;
+; ain1       ; pin_name6   ; 4.500 ;       ;       ; 5.190 ;
+; ain1       ; pin_name16  ; 4.135 ; 4.155 ; 4.749 ; 4.762 ;
+; ain1       ; pin_name17  ; 4.438 ; 4.416 ; 5.045 ; 5.007 ;
+; ain1       ; pin_name18  ; 4.758 ; 4.694 ; 5.378 ; 5.353 ;
+; ain1       ; pin_name19  ; 4.809 ; 4.738 ; 5.429 ; 5.397 ;
+; ain1       ; pin_name20  ; 4.757 ; 4.685 ; 5.377 ; 5.344 ;
+; ain1       ; pin_name21  ; 4.747 ; 4.684 ; 5.367 ; 5.343 ;
+; ain2       ; pin_name    ; 4.574 ; 4.530 ; 5.218 ; 5.213 ;
+; ain2       ; pin_name1   ; 4.368 ;       ;       ; 5.059 ;
+; ain2       ; pin_name4   ; 4.503 ;       ;       ; 5.203 ;
+; ain2       ; pin_name5   ; 4.503 ;       ;       ; 5.203 ;
+; ain2       ; pin_name6   ; 4.612 ;       ;       ; 5.326 ;
+; ain2       ; pin_name16  ; 4.275 ; 4.309 ; 4.915 ; 4.917 ;
+; ain2       ; pin_name17  ; 4.592 ; 4.524 ; 5.200 ; 5.164 ;
+; ain2       ; pin_name18  ; 4.870 ; 4.806 ; 5.514 ; 5.489 ;
+; ain2       ; pin_name19  ; 4.921 ; 4.850 ; 5.565 ; 5.533 ;
+; ain2       ; pin_name20  ; 4.869 ; 4.797 ; 5.513 ; 5.480 ;
+; ain2       ; pin_name21  ; 4.859 ; 4.796 ; 5.503 ; 5.479 ;
+; ain3       ; pin_name    ; 4.211 ; 4.185 ; 4.831 ; 4.787 ;
+; ain3       ; pin_name1   ; 4.029 ;       ;       ; 4.657 ;
+; ain3       ; pin_name4   ; 4.164 ;       ;       ; 4.801 ;
+; ain3       ; pin_name5   ; 4.164 ;       ;       ; 4.801 ;
+; ain3       ; pin_name6   ; 4.273 ;       ;       ; 4.924 ;
+; ain3       ; pin_name18  ; 4.507 ; 4.461 ; 5.127 ; 5.063 ;
+; ain3       ; pin_name19  ; 4.558 ; 4.505 ; 5.178 ; 5.107 ;
+; ain3       ; pin_name20  ; 4.506 ; 4.452 ; 5.126 ; 5.054 ;
+; ain3       ; pin_name21  ; 4.496 ; 4.451 ; 5.116 ; 5.053 ;
+; bin0       ; pin_name    ; 4.714 ; 4.670 ; 5.369 ; 5.364 ;
+; bin0       ; pin_name1   ; 4.508 ;       ;       ; 5.210 ;
+; bin0       ; pin_name4   ; 4.643 ;       ;       ; 5.354 ;
+; bin0       ; pin_name5   ; 4.643 ;       ;       ; 5.354 ;
+; bin0       ; pin_name6   ; 4.752 ;       ;       ; 5.477 ;
+; bin0       ; pin_name16  ; 4.387 ; 4.407 ; 5.036 ; 5.049 ;
+; bin0       ; pin_name17  ; 4.690 ; 4.661 ; 5.332 ; 5.290 ;
+; bin0       ; pin_name18  ; 5.010 ; 4.946 ; 5.665 ; 5.640 ;
+; bin0       ; pin_name19  ; 5.061 ; 4.990 ; 5.716 ; 5.684 ;
+; bin0       ; pin_name20  ; 5.009 ; 4.937 ; 5.664 ; 5.631 ;
+; bin0       ; pin_name21  ; 4.999 ; 4.936 ; 5.654 ; 5.630 ;
+; bin1       ; pin_name    ; 4.729 ; 4.685 ; 5.397 ; 5.392 ;
+; bin1       ; pin_name1   ; 4.523 ;       ;       ; 5.238 ;
+; bin1       ; pin_name4   ; 4.658 ;       ;       ; 5.382 ;
+; bin1       ; pin_name5   ; 4.658 ;       ;       ; 5.382 ;
+; bin1       ; pin_name6   ; 4.767 ;       ;       ; 5.505 ;
+; bin1       ; pin_name16  ; 4.422 ; 4.425 ; 5.064 ; 5.077 ;
+; bin1       ; pin_name17  ; 4.705 ; 4.707 ; 5.360 ; 5.335 ;
+; bin1       ; pin_name18  ; 5.025 ; 4.961 ; 5.693 ; 5.668 ;
+; bin1       ; pin_name19  ; 5.076 ; 5.005 ; 5.744 ; 5.712 ;
+; bin1       ; pin_name20  ; 5.024 ; 4.952 ; 5.692 ; 5.659 ;
+; bin1       ; pin_name21  ; 5.014 ; 4.951 ; 5.682 ; 5.658 ;
+; bin2       ; pin_name    ; 4.463 ; 4.445 ; 5.101 ; 5.080 ;
+; bin2       ; pin_name1   ; 4.233 ;       ;       ; 4.929 ;
+; bin2       ; pin_name4   ; 4.368 ;       ;       ; 5.073 ;
+; bin2       ; pin_name5   ; 4.368 ;       ;       ; 5.073 ;
+; bin2       ; pin_name6   ; 4.477 ;       ;       ; 5.196 ;
+; bin2       ; pin_name16  ; 4.254 ; 4.289 ; 4.929 ; 4.924 ;
+; bin2       ; pin_name17  ; 4.572 ; 4.503 ; 5.207 ; 5.178 ;
+; bin2       ; pin_name18  ; 4.765 ; 4.733 ; 5.400 ; 5.368 ;
+; bin2       ; pin_name19  ; 4.764 ; 4.772 ; 5.448 ; 5.407 ;
+; bin2       ; pin_name20  ; 4.766 ; 4.655 ; 5.401 ; 5.346 ;
+; bin2       ; pin_name21  ; 4.756 ; 4.725 ; 5.391 ; 5.360 ;
+; bin3       ; pin_name    ; 4.366 ; 4.323 ; 4.980 ; 4.969 ;
+; bin3       ; pin_name1   ; 4.162 ;       ;       ; 4.819 ;
+; bin3       ; pin_name4   ; 4.297 ;       ;       ; 4.963 ;
+; bin3       ; pin_name5   ; 4.297 ;       ;       ; 4.963 ;
+; bin3       ; pin_name6   ; 4.406 ;       ;       ; 5.086 ;
+; bin3       ; pin_name18  ; 4.662 ; 4.599 ; 5.276 ; 5.245 ;
+; bin3       ; pin_name19  ; 4.713 ; 4.643 ; 5.327 ; 5.289 ;
+; bin3       ; pin_name20  ; 4.661 ; 4.590 ; 5.275 ; 5.236 ;
+; bin3       ; pin_name21  ; 4.651 ; 4.589 ; 5.265 ; 5.235 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 4.159 ; 4.110 ; 4.798 ; 4.752 ;
+; ain0       ; pin_name1   ; 4.218 ;       ;       ; 4.881 ;
+; ain0       ; pin_name4   ; 4.347 ;       ;       ; 5.019 ;
+; ain0       ; pin_name5   ; 4.347 ;       ;       ; 5.019 ;
+; ain0       ; pin_name6   ; 4.452 ;       ;       ; 5.137 ;
+; ain0       ; pin_name16  ; 3.889 ; 3.871 ; 4.508 ; 4.509 ;
+; ain0       ; pin_name17  ; 4.189 ; 4.149 ; 4.817 ; 4.791 ;
+; ain0       ; pin_name18  ; 4.405 ; 4.379 ; 5.047 ; 5.021 ;
+; ain0       ; pin_name19  ; 4.500 ; 4.421 ; 5.139 ; 5.063 ;
+; ain0       ; pin_name20  ; 4.403 ; 4.398 ; 5.045 ; 5.037 ;
+; ain0       ; pin_name21  ; 4.395 ; 4.370 ; 5.037 ; 5.012 ;
+; ain1       ; pin_name    ; 3.967 ; 3.923 ; 4.551 ; 4.514 ;
+; ain1       ; pin_name1   ; 4.020 ;       ;       ; 4.645 ;
+; ain1       ; pin_name4   ; 4.149 ;       ;       ; 4.783 ;
+; ain1       ; pin_name5   ; 4.149 ;       ;       ; 4.783 ;
+; ain1       ; pin_name6   ; 4.254 ;       ;       ; 4.901 ;
+; ain1       ; pin_name16  ; 3.983 ; 3.965 ; 4.574 ; 4.556 ;
+; ain1       ; pin_name17  ; 4.278 ; 4.271 ; 4.869 ; 4.873 ;
+; ain1       ; pin_name18  ; 4.218 ; 4.192 ; 4.809 ; 4.783 ;
+; ain1       ; pin_name19  ; 4.308 ; 4.234 ; 4.892 ; 4.825 ;
+; ain1       ; pin_name20  ; 4.216 ; 4.206 ; 4.807 ; 4.790 ;
+; ain1       ; pin_name21  ; 4.208 ; 4.183 ; 4.799 ; 4.774 ;
+; ain2       ; pin_name    ; 4.270 ; 4.251 ; 4.896 ; 4.877 ;
+; ain2       ; pin_name1   ; 4.143 ;       ;       ; 4.798 ;
+; ain2       ; pin_name4   ; 4.272 ;       ;       ; 4.936 ;
+; ain2       ; pin_name5   ; 4.272 ;       ;       ; 4.936 ;
+; ain2       ; pin_name6   ; 4.377 ;       ;       ; 5.054 ;
+; ain2       ; pin_name16  ; 4.130 ; 4.157 ; 4.756 ; 4.781 ;
+; ain2       ; pin_name17  ; 4.428 ; 4.370 ; 5.052 ; 4.996 ;
+; ain2       ; pin_name18  ; 4.559 ; 4.519 ; 5.185 ; 5.145 ;
+; ain2       ; pin_name19  ; 4.608 ; 4.598 ; 5.234 ; 5.245 ;
+; ain2       ; pin_name20  ; 4.590 ; 4.510 ; 5.214 ; 5.136 ;
+; ain2       ; pin_name21  ; 4.554 ; 4.510 ; 5.180 ; 5.136 ;
+; ain3       ; pin_name    ; 4.105 ; 4.081 ; 4.718 ; 4.674 ;
+; ain3       ; pin_name1   ; 3.932 ;       ;       ; 4.551 ;
+; ain3       ; pin_name4   ; 4.061 ;       ;       ; 4.689 ;
+; ain3       ; pin_name5   ; 4.061 ;       ;       ; 4.689 ;
+; ain3       ; pin_name6   ; 4.166 ;       ;       ; 4.807 ;
+; ain3       ; pin_name18  ; 4.390 ; 4.345 ; 5.003 ; 4.938 ;
+; ain3       ; pin_name19  ; 4.438 ; 4.388 ; 5.051 ; 4.981 ;
+; ain3       ; pin_name20  ; 4.387 ; 4.337 ; 5.000 ; 4.930 ;
+; ain3       ; pin_name21  ; 4.379 ; 4.336 ; 4.992 ; 4.929 ;
+; bin0       ; pin_name    ; 4.200 ; 4.161 ; 4.822 ; 4.763 ;
+; bin0       ; pin_name1   ; 4.263 ;       ;       ; 4.921 ;
+; bin0       ; pin_name4   ; 4.392 ;       ;       ; 5.059 ;
+; bin0       ; pin_name5   ; 4.392 ;       ;       ; 5.059 ;
+; bin0       ; pin_name6   ; 4.497 ;       ;       ; 5.177 ;
+; bin0       ; pin_name16  ; 3.930 ; 3.924 ; 4.550 ; 4.525 ;
+; bin0       ; pin_name17  ; 4.193 ; 4.172 ; 4.817 ; 4.777 ;
+; bin0       ; pin_name18  ; 4.456 ; 4.430 ; 5.058 ; 5.032 ;
+; bin0       ; pin_name19  ; 4.541 ; 4.472 ; 5.154 ; 5.074 ;
+; bin0       ; pin_name20  ; 4.454 ; 4.439 ; 5.056 ; 5.061 ;
+; bin0       ; pin_name21  ; 4.446 ; 4.421 ; 5.048 ; 5.023 ;
+; bin1       ; pin_name    ; 4.211 ; 4.160 ; 4.834 ; 4.783 ;
+; bin1       ; pin_name1   ; 4.256 ;       ;       ; 4.912 ;
+; bin1       ; pin_name4   ; 4.385 ;       ;       ; 5.050 ;
+; bin1       ; pin_name5   ; 4.385 ;       ;       ; 5.050 ;
+; bin1       ; pin_name6   ; 4.490 ;       ;       ; 5.168 ;
+; bin1       ; pin_name16  ; 4.220 ; 4.202 ; 4.843 ; 4.825 ;
+; bin1       ; pin_name17  ; 4.515 ; 4.507 ; 5.138 ; 5.145 ;
+; bin1       ; pin_name18  ; 4.455 ; 4.429 ; 5.078 ; 5.052 ;
+; bin1       ; pin_name19  ; 4.552 ; 4.471 ; 5.175 ; 5.094 ;
+; bin1       ; pin_name20  ; 4.453 ; 4.450 ; 5.076 ; 5.073 ;
+; bin1       ; pin_name21  ; 4.445 ; 4.420 ; 5.068 ; 5.043 ;
+; bin2       ; pin_name    ; 4.252 ; 4.233 ; 4.902 ; 4.883 ;
+; bin2       ; pin_name1   ; 4.099 ;       ;       ; 4.764 ;
+; bin2       ; pin_name4   ; 4.228 ;       ;       ; 4.902 ;
+; bin2       ; pin_name5   ; 4.228 ;       ;       ; 4.902 ;
+; bin2       ; pin_name6   ; 4.333 ;       ;       ; 5.020 ;
+; bin2       ; pin_name16  ; 4.112 ; 4.141 ; 4.762 ; 4.790 ;
+; bin2       ; pin_name17  ; 4.412 ; 4.352 ; 5.061 ; 5.002 ;
+; bin2       ; pin_name18  ; 4.541 ; 4.501 ; 5.191 ; 5.151 ;
+; bin2       ; pin_name19  ; 4.590 ; 4.554 ; 5.240 ; 5.213 ;
+; bin2       ; pin_name20  ; 4.558 ; 4.492 ; 5.210 ; 5.142 ;
+; bin2       ; pin_name21  ; 4.536 ; 4.492 ; 5.186 ; 5.142 ;
+; bin3       ; pin_name    ; 4.216 ; 4.180 ; 4.828 ; 4.810 ;
+; bin3       ; pin_name1   ; 4.032 ;       ;       ; 4.665 ;
+; bin3       ; pin_name4   ; 4.161 ;       ;       ; 4.803 ;
+; bin3       ; pin_name5   ; 4.161 ;       ;       ; 4.803 ;
+; bin3       ; pin_name6   ; 4.266 ;       ;       ; 4.921 ;
+; bin3       ; pin_name18  ; 4.501 ; 4.444 ; 5.113 ; 5.074 ;
+; bin3       ; pin_name19  ; 4.549 ; 4.487 ; 5.161 ; 5.117 ;
+; bin3       ; pin_name20  ; 4.498 ; 4.436 ; 5.110 ; 5.066 ;
+; bin3       ; pin_name21  ; 4.490 ; 4.435 ; 5.102 ; 5.065 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; N/A                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++----------------------------------------------------------+
+; Progagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 8.050 ; 8.075 ; 8.550 ; 8.632 ;
+; ain0       ; pin_name1   ; 7.748 ;       ;       ; 8.237 ;
+; ain0       ; pin_name4   ; 7.999 ;       ;       ; 8.478 ;
+; ain0       ; pin_name5   ; 7.999 ;       ;       ; 8.478 ;
+; ain0       ; pin_name6   ; 8.199 ;       ;       ; 8.685 ;
+; ain0       ; pin_name16  ; 7.447 ; 7.559 ; 7.953 ; 8.056 ;
+; ain0       ; pin_name17  ; 7.930 ; 8.029 ; 8.427 ; 8.491 ;
+; ain0       ; pin_name18  ; 8.536 ; 8.570 ; 9.036 ; 9.127 ;
+; ain0       ; pin_name19  ; 8.589 ; 8.616 ; 9.089 ; 9.173 ;
+; ain0       ; pin_name20  ; 8.527 ; 8.558 ; 9.027 ; 9.115 ;
+; ain0       ; pin_name21  ; 8.528 ; 8.562 ; 9.028 ; 9.119 ;
+; ain1       ; pin_name    ; 7.643 ; 7.668 ; 8.083 ; 8.165 ;
+; ain1       ; pin_name1   ; 7.341 ;       ;       ; 7.770 ;
+; ain1       ; pin_name4   ; 7.592 ;       ;       ; 8.011 ;
+; ain1       ; pin_name5   ; 7.592 ;       ;       ; 8.011 ;
+; ain1       ; pin_name6   ; 7.792 ;       ;       ; 8.218 ;
+; ain1       ; pin_name16  ; 7.040 ; 7.152 ; 7.486 ; 7.589 ;
+; ain1       ; pin_name17  ; 7.523 ; 7.578 ; 7.960 ; 8.024 ;
+; ain1       ; pin_name18  ; 8.129 ; 8.163 ; 8.569 ; 8.660 ;
+; ain1       ; pin_name19  ; 8.182 ; 8.209 ; 8.622 ; 8.706 ;
+; ain1       ; pin_name20  ; 8.120 ; 8.151 ; 8.560 ; 8.648 ;
+; ain1       ; pin_name21  ; 8.121 ; 8.155 ; 8.561 ; 8.652 ;
+; ain2       ; pin_name    ; 7.816 ; 7.841 ; 8.278 ; 8.360 ;
+; ain2       ; pin_name1   ; 7.514 ;       ;       ; 7.965 ;
+; ain2       ; pin_name4   ; 7.765 ;       ;       ; 8.206 ;
+; ain2       ; pin_name5   ; 7.765 ;       ;       ; 8.206 ;
+; ain2       ; pin_name6   ; 7.965 ;       ;       ; 8.413 ;
+; ain2       ; pin_name16  ; 7.263 ; 7.407 ; 7.724 ; 7.824 ;
+; ain2       ; pin_name17  ; 7.778 ; 7.801 ; 8.195 ; 8.262 ;
+; ain2       ; pin_name18  ; 8.302 ; 8.336 ; 8.764 ; 8.855 ;
+; ain2       ; pin_name19  ; 8.355 ; 8.382 ; 8.817 ; 8.901 ;
+; ain2       ; pin_name20  ; 8.293 ; 8.324 ; 8.755 ; 8.843 ;
+; ain2       ; pin_name21  ; 8.294 ; 8.328 ; 8.756 ; 8.847 ;
+; ain3       ; pin_name    ; 7.115 ; 7.177 ; 7.581 ; 7.611 ;
+; ain3       ; pin_name1   ; 6.860 ;       ;       ; 7.248 ;
+; ain3       ; pin_name4   ; 7.111 ;       ;       ; 7.489 ;
+; ain3       ; pin_name5   ; 7.111 ;       ;       ; 7.489 ;
+; ain3       ; pin_name6   ; 7.311 ;       ;       ; 7.696 ;
+; ain3       ; pin_name18  ; 7.601 ; 7.672 ; 8.067 ; 8.106 ;
+; ain3       ; pin_name19  ; 7.654 ; 7.718 ; 8.120 ; 8.152 ;
+; ain3       ; pin_name20  ; 7.592 ; 7.660 ; 8.058 ; 8.094 ;
+; ain3       ; pin_name21  ; 7.593 ; 7.664 ; 8.059 ; 8.098 ;
+; bin0       ; pin_name    ; 8.014 ; 8.039 ; 8.513 ; 8.595 ;
+; bin0       ; pin_name1   ; 7.712 ;       ;       ; 8.200 ;
+; bin0       ; pin_name4   ; 7.963 ;       ;       ; 8.441 ;
+; bin0       ; pin_name5   ; 7.963 ;       ;       ; 8.441 ;
+; bin0       ; pin_name6   ; 8.163 ;       ;       ; 8.648 ;
+; bin0       ; pin_name16  ; 7.411 ; 7.523 ; 7.916 ; 8.019 ;
+; bin0       ; pin_name17  ; 7.894 ; 7.949 ; 8.390 ; 8.454 ;
+; bin0       ; pin_name18  ; 8.500 ; 8.534 ; 8.999 ; 9.090 ;
+; bin0       ; pin_name19  ; 8.553 ; 8.580 ; 9.052 ; 9.136 ;
+; bin0       ; pin_name20  ; 8.491 ; 8.522 ; 8.990 ; 9.078 ;
+; bin0       ; pin_name21  ; 8.492 ; 8.526 ; 8.991 ; 9.082 ;
+; bin1       ; pin_name    ; 8.105 ; 8.130 ; 8.591 ; 8.673 ;
+; bin1       ; pin_name1   ; 7.803 ;       ;       ; 8.278 ;
+; bin1       ; pin_name4   ; 8.054 ;       ;       ; 8.519 ;
+; bin1       ; pin_name5   ; 8.054 ;       ;       ; 8.519 ;
+; bin1       ; pin_name6   ; 8.254 ;       ;       ; 8.726 ;
+; bin1       ; pin_name16  ; 7.502 ; 7.614 ; 7.994 ; 8.097 ;
+; bin1       ; pin_name17  ; 7.985 ; 8.087 ; 8.468 ; 8.532 ;
+; bin1       ; pin_name18  ; 8.591 ; 8.625 ; 9.077 ; 9.168 ;
+; bin1       ; pin_name19  ; 8.644 ; 8.671 ; 9.130 ; 9.214 ;
+; bin1       ; pin_name20  ; 8.582 ; 8.613 ; 9.068 ; 9.156 ;
+; bin1       ; pin_name21  ; 8.583 ; 8.617 ; 9.069 ; 9.160 ;
+; bin2       ; pin_name    ; 7.576 ; 7.625 ; 8.044 ; 8.113 ;
+; bin2       ; pin_name1   ; 7.256 ;       ;       ; 7.714 ;
+; bin2       ; pin_name4   ; 7.507 ;       ;       ; 7.955 ;
+; bin2       ; pin_name5   ; 7.507 ;       ;       ; 7.955 ;
+; bin2       ; pin_name6   ; 7.707 ;       ;       ; 8.162 ;
+; bin2       ; pin_name16  ; 7.206 ; 7.353 ; 7.721 ; 7.811 ;
+; bin2       ; pin_name17  ; 7.724 ; 7.744 ; 8.182 ; 8.259 ;
+; bin2       ; pin_name18  ; 8.067 ; 8.129 ; 8.530 ; 8.608 ;
+; bin2       ; pin_name19  ; 8.051 ; 8.173 ; 8.583 ; 8.654 ;
+; bin2       ; pin_name20  ; 8.059 ; 8.055 ; 8.521 ; 8.596 ;
+; bin2       ; pin_name21  ; 8.060 ; 8.125 ; 8.522 ; 8.600 ;
+; bin3       ; pin_name    ; 7.313 ; 7.341 ; 7.772 ; 7.844 ;
+; bin3       ; pin_name1   ; 7.014 ;       ;       ; 7.462 ;
+; bin3       ; pin_name4   ; 7.265 ;       ;       ; 7.703 ;
+; bin3       ; pin_name5   ; 7.265 ;       ;       ; 7.703 ;
+; bin3       ; pin_name6   ; 7.465 ;       ;       ; 7.910 ;
+; bin3       ; pin_name18  ; 7.799 ; 7.836 ; 8.258 ; 8.339 ;
+; bin3       ; pin_name19  ; 7.852 ; 7.882 ; 8.311 ; 8.385 ;
+; bin3       ; pin_name20  ; 7.790 ; 7.824 ; 8.249 ; 8.327 ;
+; bin3       ; pin_name21  ; 7.791 ; 7.828 ; 8.250 ; 8.331 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ain0       ; pin_name    ; 4.159 ; 4.110 ; 4.798 ; 4.752 ;
+; ain0       ; pin_name1   ; 4.218 ;       ;       ; 4.881 ;
+; ain0       ; pin_name4   ; 4.347 ;       ;       ; 5.019 ;
+; ain0       ; pin_name5   ; 4.347 ;       ;       ; 5.019 ;
+; ain0       ; pin_name6   ; 4.452 ;       ;       ; 5.137 ;
+; ain0       ; pin_name16  ; 3.889 ; 3.871 ; 4.508 ; 4.509 ;
+; ain0       ; pin_name17  ; 4.189 ; 4.149 ; 4.817 ; 4.791 ;
+; ain0       ; pin_name18  ; 4.405 ; 4.379 ; 5.047 ; 5.021 ;
+; ain0       ; pin_name19  ; 4.500 ; 4.421 ; 5.139 ; 5.063 ;
+; ain0       ; pin_name20  ; 4.403 ; 4.398 ; 5.045 ; 5.037 ;
+; ain0       ; pin_name21  ; 4.395 ; 4.370 ; 5.037 ; 5.012 ;
+; ain1       ; pin_name    ; 3.967 ; 3.923 ; 4.551 ; 4.514 ;
+; ain1       ; pin_name1   ; 4.020 ;       ;       ; 4.645 ;
+; ain1       ; pin_name4   ; 4.149 ;       ;       ; 4.783 ;
+; ain1       ; pin_name5   ; 4.149 ;       ;       ; 4.783 ;
+; ain1       ; pin_name6   ; 4.254 ;       ;       ; 4.901 ;
+; ain1       ; pin_name16  ; 3.983 ; 3.965 ; 4.574 ; 4.556 ;
+; ain1       ; pin_name17  ; 4.278 ; 4.271 ; 4.869 ; 4.873 ;
+; ain1       ; pin_name18  ; 4.218 ; 4.192 ; 4.809 ; 4.783 ;
+; ain1       ; pin_name19  ; 4.308 ; 4.234 ; 4.892 ; 4.825 ;
+; ain1       ; pin_name20  ; 4.216 ; 4.206 ; 4.807 ; 4.790 ;
+; ain1       ; pin_name21  ; 4.208 ; 4.183 ; 4.799 ; 4.774 ;
+; ain2       ; pin_name    ; 4.270 ; 4.251 ; 4.896 ; 4.877 ;
+; ain2       ; pin_name1   ; 4.143 ;       ;       ; 4.798 ;
+; ain2       ; pin_name4   ; 4.272 ;       ;       ; 4.936 ;
+; ain2       ; pin_name5   ; 4.272 ;       ;       ; 4.936 ;
+; ain2       ; pin_name6   ; 4.377 ;       ;       ; 5.054 ;
+; ain2       ; pin_name16  ; 4.130 ; 4.157 ; 4.756 ; 4.781 ;
+; ain2       ; pin_name17  ; 4.428 ; 4.370 ; 5.052 ; 4.996 ;
+; ain2       ; pin_name18  ; 4.559 ; 4.519 ; 5.185 ; 5.145 ;
+; ain2       ; pin_name19  ; 4.608 ; 4.598 ; 5.234 ; 5.245 ;
+; ain2       ; pin_name20  ; 4.590 ; 4.510 ; 5.214 ; 5.136 ;
+; ain2       ; pin_name21  ; 4.554 ; 4.510 ; 5.180 ; 5.136 ;
+; ain3       ; pin_name    ; 4.105 ; 4.081 ; 4.718 ; 4.674 ;
+; ain3       ; pin_name1   ; 3.932 ;       ;       ; 4.551 ;
+; ain3       ; pin_name4   ; 4.061 ;       ;       ; 4.689 ;
+; ain3       ; pin_name5   ; 4.061 ;       ;       ; 4.689 ;
+; ain3       ; pin_name6   ; 4.166 ;       ;       ; 4.807 ;
+; ain3       ; pin_name18  ; 4.390 ; 4.345 ; 5.003 ; 4.938 ;
+; ain3       ; pin_name19  ; 4.438 ; 4.388 ; 5.051 ; 4.981 ;
+; ain3       ; pin_name20  ; 4.387 ; 4.337 ; 5.000 ; 4.930 ;
+; ain3       ; pin_name21  ; 4.379 ; 4.336 ; 4.992 ; 4.929 ;
+; bin0       ; pin_name    ; 4.200 ; 4.161 ; 4.822 ; 4.763 ;
+; bin0       ; pin_name1   ; 4.263 ;       ;       ; 4.921 ;
+; bin0       ; pin_name4   ; 4.392 ;       ;       ; 5.059 ;
+; bin0       ; pin_name5   ; 4.392 ;       ;       ; 5.059 ;
+; bin0       ; pin_name6   ; 4.497 ;       ;       ; 5.177 ;
+; bin0       ; pin_name16  ; 3.930 ; 3.924 ; 4.550 ; 4.525 ;
+; bin0       ; pin_name17  ; 4.193 ; 4.172 ; 4.817 ; 4.777 ;
+; bin0       ; pin_name18  ; 4.456 ; 4.430 ; 5.058 ; 5.032 ;
+; bin0       ; pin_name19  ; 4.541 ; 4.472 ; 5.154 ; 5.074 ;
+; bin0       ; pin_name20  ; 4.454 ; 4.439 ; 5.056 ; 5.061 ;
+; bin0       ; pin_name21  ; 4.446 ; 4.421 ; 5.048 ; 5.023 ;
+; bin1       ; pin_name    ; 4.211 ; 4.160 ; 4.834 ; 4.783 ;
+; bin1       ; pin_name1   ; 4.256 ;       ;       ; 4.912 ;
+; bin1       ; pin_name4   ; 4.385 ;       ;       ; 5.050 ;
+; bin1       ; pin_name5   ; 4.385 ;       ;       ; 5.050 ;
+; bin1       ; pin_name6   ; 4.490 ;       ;       ; 5.168 ;
+; bin1       ; pin_name16  ; 4.220 ; 4.202 ; 4.843 ; 4.825 ;
+; bin1       ; pin_name17  ; 4.515 ; 4.507 ; 5.138 ; 5.145 ;
+; bin1       ; pin_name18  ; 4.455 ; 4.429 ; 5.078 ; 5.052 ;
+; bin1       ; pin_name19  ; 4.552 ; 4.471 ; 5.175 ; 5.094 ;
+; bin1       ; pin_name20  ; 4.453 ; 4.450 ; 5.076 ; 5.073 ;
+; bin1       ; pin_name21  ; 4.445 ; 4.420 ; 5.068 ; 5.043 ;
+; bin2       ; pin_name    ; 4.252 ; 4.233 ; 4.902 ; 4.883 ;
+; bin2       ; pin_name1   ; 4.099 ;       ;       ; 4.764 ;
+; bin2       ; pin_name4   ; 4.228 ;       ;       ; 4.902 ;
+; bin2       ; pin_name5   ; 4.228 ;       ;       ; 4.902 ;
+; bin2       ; pin_name6   ; 4.333 ;       ;       ; 5.020 ;
+; bin2       ; pin_name16  ; 4.112 ; 4.141 ; 4.762 ; 4.790 ;
+; bin2       ; pin_name17  ; 4.412 ; 4.352 ; 5.061 ; 5.002 ;
+; bin2       ; pin_name18  ; 4.541 ; 4.501 ; 5.191 ; 5.151 ;
+; bin2       ; pin_name19  ; 4.590 ; 4.554 ; 5.240 ; 5.213 ;
+; bin2       ; pin_name20  ; 4.558 ; 4.492 ; 5.210 ; 5.142 ;
+; bin2       ; pin_name21  ; 4.536 ; 4.492 ; 5.186 ; 5.142 ;
+; bin3       ; pin_name    ; 4.216 ; 4.180 ; 4.828 ; 4.810 ;
+; bin3       ; pin_name1   ; 4.032 ;       ;       ; 4.665 ;
+; bin3       ; pin_name4   ; 4.161 ;       ;       ; 4.803 ;
+; bin3       ; pin_name5   ; 4.161 ;       ;       ; 4.803 ;
+; bin3       ; pin_name6   ; 4.266 ;       ;       ; 4.921 ;
+; bin3       ; pin_name18  ; 4.501 ; 4.444 ; 5.113 ; 5.074 ;
+; bin3       ; pin_name19  ; 4.549 ; 4.487 ; 5.161 ; 5.117 ;
+; bin3       ; pin_name20  ; 4.498 ; 4.436 ; 5.110 ; 5.066 ;
+; bin3       ; pin_name21  ; 4.490 ; 4.435 ; 5.102 ; 5.065 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; pin_name      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name16    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name17    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name18    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name19    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name20    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name21    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name1     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name2     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name3     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name4     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name5     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name6     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; pin_name7     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; ain0                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; bin0                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ain1                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; bin1                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; bin3                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ain3                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; bin2                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ain2                    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; pin_name      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name16    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name17    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name18    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name19    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name20    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name21    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name1     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name2     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name3     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name4     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name5     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name6     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; pin_name7     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.08e-006 V                  ; 2.36 V              ; -0.0108 V           ; 0.122 V                              ; 0.021 V                              ; 4.5e-010 s                  ; 4.45e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.08e-006 V                 ; 2.36 V             ; -0.0108 V          ; 0.122 V                             ; 0.021 V                             ; 4.5e-010 s                 ; 4.45e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-007 V                  ; 2.35 V              ; -0.0132 V           ; 0.2 V                                ; 0.027 V                              ; 5.26e-010 s                 ; 4.81e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-007 V                 ; 2.35 V             ; -0.0132 V          ; 0.2 V                               ; 0.027 V                             ; 5.26e-010 s                ; 4.81e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-007 V                  ; 2.35 V              ; -0.00483 V          ; 0.18 V                               ; 0.019 V                              ; 7.23e-010 s                 ; 9.82e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-007 V                 ; 2.35 V             ; -0.00483 V         ; 0.18 V                              ; 0.019 V                             ; 7.23e-010 s                ; 9.82e-010 s                ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; pin_name      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name16    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name17    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name18    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name19    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name20    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name21    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name1     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name2     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name3     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name4     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name5     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name6     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; pin_name7     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.11e-008 V                  ; 2.73 V              ; -0.0567 V           ; 0.191 V                              ; 0.12 V                               ; 2.69e-010 s                 ; 2.76e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.11e-008 V                 ; 2.73 V             ; -0.0567 V          ; 0.191 V                             ; 0.12 V                              ; 2.69e-010 s                ; 2.76e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.19e-008 V                  ; 2.72 V              ; -0.0746 V           ; 0.28 V                               ; 0.169 V                              ; 3.1e-010 s                  ; 3.01e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.19e-008 V                 ; 2.72 V             ; -0.0746 V          ; 0.28 V                              ; 0.169 V                             ; 3.1e-010 s                 ; 3.01e-010 s                ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.53e-008 V                  ; 2.7 V               ; -0.021 V            ; 0.204 V                              ; 0.048 V                              ; 4.85e-010 s                 ; 6.74e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 3.53e-008 V                 ; 2.7 V              ; -0.021 V           ; 0.204 V                             ; 0.048 V                             ; 4.85e-010 s                ; 6.74e-010 s                ; No                        ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+No clock transfers to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design.
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design.
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 8     ; 8    ;
+; Unconstrained Input Port Paths  ; 84    ; 84   ;
+; Unconstrained Output Ports      ; 11    ; 11   ;
+; Unconstrained Output Port Paths ; 84    ; 84   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
+    Info: Processing started: Tue Oct 08 20:58:52 2019
+Info: Command: quartus_sta sumdec -c sumdec
+Info: qsta_default_script.tcl version: #3
+Info: Core supply voltage is 1.2V
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Critical Warning: Synopsys Design Constraints File file not found: 'sumdec.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info: No fmax paths to report
+Info: No setup paths to report
+Info: No hold paths to report
+Info: No recovery paths to report
+Info: No removal paths to report
+Info: No minimum pulse width or minimum period width checks to report
+Info: The Metastability Analysis global option is set to OFF.
+Info: No synchronizer chains to report.
+Info: Analyzing Slow 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No fmax paths to report
+Info: No setup paths to report
+Info: No hold paths to report
+Info: No recovery paths to report
+Info: No removal paths to report
+Info: No minimum pulse width or minimum period width checks to report
+Info: The Metastability Analysis global option is set to OFF.
+Info: No synchronizer chains to report.
+Info: Analyzing Fast 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No setup paths to report
+Info: No hold paths to report
+Info: No recovery paths to report
+Info: No removal paths to report
+Info: No minimum pulse width or minimum period width checks to report
+Info: The Metastability Analysis global option is set to OFF.
+Info: No synchronizer chains to report.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 229 megabytes
+    Info: Processing ended: Tue Oct 08 20:58:53 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

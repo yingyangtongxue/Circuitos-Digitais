@@ -1,0 +1,62 @@
+Version 9.0 Build 132 02/25/2009 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ltch
+# storage
+db|ltchsr.(1).cnf
+db|ltchsr.(1).cnf
+# case_insensitive
+# source_file
+ltch.bdf
+7a52fea745b7ac932f49491740fefa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ltch:inst
+}
+# macro_sequence
+
+# end
+# entity
+ltchsr
+# storage
+db|ltchsr.(0).cnf
+db|ltchsr.(0).cnf
+# case_insensitive
+# source_file
+ltchsr.bdf
+3f19c3876ed4cd5b7c1bf246a35b86
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,20 @@
+|somador
+out_0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+cin => inst3.IN0
+cin => inst6.IN1
+ain0 => inst.IN0
+ain0 => inst5.IN1
+ain0 => inst4.IN0
+bin0 => inst.IN1
+bin0 => inst5.IN0
+bin0 => inst4.IN1
+out_1 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+ain1 => inst8.IN0
+ain1 => inst11.IN1
+ain1 => inst10.IN0
+bin1 => inst8.IN1
+bin1 => inst11.IN0
+bin1 => inst10.IN1
+Cout <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+

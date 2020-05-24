@@ -1,0 +1,9 @@
+|ffjk
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Preset => inst.IN0
+Clear => inst5.IN0
+In => inst4.IN0
+In => inst6~0.IN1
+Trigger => inst6.CLK
+
+

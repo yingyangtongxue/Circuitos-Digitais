@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 02 17:36:02 2019
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : counter7seg
+Top-level Entity Name : counter7seg
+Family : Cyclone III
+Total logic elements : 35
+    Total combinational functions : 35
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

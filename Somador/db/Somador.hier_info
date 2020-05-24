@@ -1,0 +1,34 @@
+|Somador
+out0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst7.IN1
+ain0 => inst3.IN0
+ain0 => inst5.IN1
+ain0 => inst4.IN0
+bin0 => inst3.IN1
+bin0 => inst5.IN0
+bin0 => inst4.IN1
+out1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+ain1 => inst9.IN0
+ain1 => inst11.IN1
+ain1 => inst10.IN0
+bin1 => inst9.IN1
+bin1 => inst11.IN0
+bin1 => inst10.IN1
+out2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+ain2 => inst15.IN0
+ain2 => inst17.IN1
+ain2 => inst16.IN0
+bin2 => inst15.IN1
+bin2 => inst17.IN0
+bin2 => inst16.IN1
+out3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+ain3 => inst21.IN0
+ain3 => inst23.IN1
+ain3 => inst22.IN0
+bin3 => inst21.IN1
+bin3 => inst23.IN0
+bin3 => inst22.IN1
+Cout <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+

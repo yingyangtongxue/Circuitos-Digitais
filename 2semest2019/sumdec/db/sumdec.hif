@@ -1,0 +1,83 @@
+Version 9.0 Build 132 02/25/2009 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+dec7seg
+# storage
+db|sumdec.(1).cnf
+db|sumdec.(1).cnf
+# case_insensitive
+# source_file
+dec7seg.bdf
+4ecdbeb8a3522ab27b335b4496ac54a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+dec7seg:inst15
+}
+# macro_sequence
+
+# end
+# entity
+somador
+# storage
+db|sumdec.(2).cnf
+db|sumdec.(2).cnf
+# case_insensitive
+# source_file
+somador.bdf
+5527b54d8a2426fbee632af1124c1a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+somador:inst1
+somador:inst
+}
+# macro_sequence
+
+# end
+# entity
+sumdec
+# storage
+db|sumdec.(0).cnf
+db|sumdec.(0).cnf
+# case_insensitive
+# source_file
+sumdec.bdf
+95cb9c696d46a45eb948965b75f379e5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
